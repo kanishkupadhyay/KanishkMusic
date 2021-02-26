@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<style>
+   @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+*{
+    margin: 0;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    padding: 0;
+}
+header{
+      position: fixed;
+    background-color: #e22042;
+    padding: 12px 0px 16px 0px;
+    width: 100%;
+      margin: -64px 0px;
+}
+.first-div{
+    display: flex;
+    
+}
+.first-div h3{
+    font-size: 22px;
+    margin: 0px 4px;
+    
+}
+.upadhyay{
+    color: #312747;
+}
+.kanishk{
+    color: #fff;
+}
+.sec-div{
+    display:  flex;
+    justify-content: center;
+}
+.sec-div ol li{
+    font-size: 18px;
+    float: left;
+    margin: -17px 39px 0px 25px;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+.sec-div ol li a{
+    text-decoration: none;
+    color: #fff;
+}
+.sec-div ol li a:hover
+{
+    color: #312747;
+}
+.third-div{
+    display: flex;
+    margin: -26px 0px 0px 0px;
+}
+.fa-search:before{
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+   
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    top: 12%;
+    left: 58%;
+    position:fixed;
+    display: none;
+}
+.search-div input{
+    padding: 9px 18px 13px 12px;
+    margin: 0px 10px;
+
+}
+.search-div button {
+    padding: 10px 15px 10px 10px;
+    background-color: #e22042;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.searchlink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.searchlink:hover{
+    color: #312747;
+}
+.page{
+    margin: 56px 0px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26)
+}
+.error-div{
+   display: flex;
+   justify-content: center;
+   margin: 170px 0px;
+}
+@media (max-width:950px){
+    .first-div h3{
+        font-size: 17px;
+    }
+}
+@media (max-width:863px){
+    .sec-div ol li{
+        font-size: 16px;
+        margin: -17px 28px 0px 13px;
+    }
+}
+@media (max-width:767px){
+    .sec-div{
+        margin-left: 170px;
+    }
+}
+@media (max-width:575px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 238px;
+    }
+    .dummy-div{
+        margin: 20px 100px 0px 100px;
+    }
+    .sec-div ol li{
+        display: none;
+    }
+    .fa-search:before{
+        display: none;
+    }
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 131px;
+    } 
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 80px;
+    } 
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 50px;
+    } 
+}
+.home-btn{
+    display: flex;
+    justify-content: center;
+}
+.home-btn button{
+    background-color: #e22042;
+    padding: 10px 16px 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.home-btn button:hover{
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+.home-btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+   @media (max-width: 575px)
+{
+.disp {
+    margin: 20px 432px;
+}
+}
+@media (max-width: 472px){
+    .disp {
+        margin: 20px 362px;
+    }
+}
+@media (max-width: 464px)
+{
+.disp {
+    margin: 20px 332px;
+}
+}
+@media (max-width: 412px){
+
+.disp {
+    margin: 20px 270px;
+}
+}
+@media (max-width: 372px)
+{
+.disp {
+    margin: 20px 248px;
+}
+}
+@media (max-width: 348px)
+{
+.disp {
+    margin: 20px 232px;
+}
+}
+@media (max-width: 332px)
+{
+.disp {
+    margin: 20px 223px;
+}
+}
+@media (max-width: 316px){
+
+
+.disp {
+    margin: 20px 223px;
+}
+}
+@media (max-width: 300px){
+.disp {
+    margin: 20px 198px;
+}
+}
+
+element.style {
+    display: block;
+}
+@media (max-width: 288px){
+.disp {
+    margin: 20px 185px;
+}
+}
+@media (max-width: 284px)
+{
+.disp {
+    margin: 20px 172px;
+}
+}
+@media(max-width:272px){
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    display: block;
+    margin: 0px 0px 0px 35px;
+}
+.disp {
+    margin: 20px 163px;
+}
+}
+@media(max-width:260px)
+{
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+        display: block;
+        margin: 0px 0px 0px 0px;
+    }
+    .disp {
+        margin: 20px 123px;
+    }
+}
+@media(max-width:2652px) {
+    .disp{
+        display: none;
+        /*margin: 19px 400px;*/
+    }
+
+}
+.bg{
+    background-image: url(../images/bg2.jpg);
+    background-size: 100% 100%;
+    height: 90vh;
+    width: 100%;
+    margin: 64px 0px;
+}
+.i{
+    display: flex;
+    justify-content: center;
+    
+}
+.i span{
+    
+    font-size: 50px;
+    margin: 70px 0px;
+    letter-spacing: 1px;
+}
+.am{
+    color: #fff;
+}
+.ka{
+    color: #ff6820;
+   
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+.imgs img{
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+}
+.my{
+    display: flex;
+    justify-content: center;
+    margin: -24px 0pxs;
+}
+.my span{
+    font-size: 30px;
+        color: rgb(174, 0, 255);
+        margin: -30px 0px;
+    font-size: 37px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+}
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 50px 50px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+    text-align: center;
+}
+.card2{
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0px 50px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+    text-align: center;
+}
+.card{
+    display: flex;
+    
+}
+.aa{
+    margin: 40px 0px;
+}
+.html:hover{
+    background-image: linear-gradient(-45deg, #fd7f30 0%, #fdb642 50%);
+}
+.css:hover{
+    background-image: linear-gradient(-45deg, #5035ec 0%, #44a2f6 50%);
+}
+.express:hover{
+    background-image: linear-gradient(-45deg, #49d0da 0%, #210c59 50%);
+}
+.angular:hover{
+    background-image: linear-gradient(-45deg, #f33474 0%, #f55b2a 50%);
+}
+.javascript:hover{
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 50%);
+}
+.mongo:hover{
+    background-image: linear-gradient(-45deg, #974eff 0%, #5a57fb 50%);
+}
+@media(max-width:950px){
+    header{
+        margin: -58px 0px;
+    }
+    .bg{
+        margin: 58px 0px;
+    }
+}
+@media(max-width:588px){
+    .card{
+        flex-direction: column;
+    }
+    .bg{
+        height: 85vh;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card2{
+        margin: 31px 50px;
+    }
+    .i span{
+        font-size: 40px;
+    }
+}
+@media(max-width:428px){
+    .i span{
+        font-size: 35px;
+    }
+    .bg{
+        height: 72vh;
+    }
+}
+@media(max-width:372px){
+    .i span{
+        font-size: 30px;
+    }
+}
+@media(max-width:316px){
+    .i span{
+        font-size: 25px;
+    }
+}
+</style>
+<body>
+   <header>
+  <div class="first-div">
+   <h3 class="kanishk">kanishk</h3>
+   <h3 class="upadhyay">upadhyay</h3>
+  </div>
+  <div class="sec-div">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/singers">Singers</a></li>
+      <li><a href="/about">About us</a></li>
+      <li><a href="/contact">Contact us</a></li>
+    </ol>
+    <div class="third-div">
+      <i id="icon" class="fa fa-search" style="font-size:36px"></i>
+      <i id="ham" class="fa fa-bars" style="font-size:36px" ></i>
+    </div>
+  </div>
+     <div id="disp" class="disp">
+  <span><a href="/">Home</a></span><br>
+  <span><a href="/singers">Singers</a></span><br>
+  <span><a href="/about">About</a></span><br>
+  <span><a href="/contact">Contact us</a></span>
+</div>
+</header>
+<div  id="search" class="search-div">
+  <input id="input" type="text" placeholder="Search here">
+  <button id="searchbtn"><a class="searchlink" href="">Search</a></button>
+</div>  
+
+<div>
+    <div class="bg">
+        <div class="i">
+            <span class="am">I am </span>
+             <span class="ka">Kanishk upadhyay</span>
+        </div>
+        <div class="imgs">
+            <img src="../images/B612_20190609_160301_894.jpg" alt="Error loading image" srcset="">
+        </div>
+    </div>
+</div>
+<div>
+    <div class="my">
+        <span>My skills</span>
+    </div>
+    <div class="aa">
+     <div class="card">
+            <div class="card2">
+                <div class="ss html">
+                    <h2>Html</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla et laborum
+                        distinctio</span>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="ss css">
+                    <h2>Css</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla et laborum
+                        distinctio</span>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="ss javascript">
+                    <h2>Javascript</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla et laborum
+                        distinctio</span>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <div class="ss angular">
+                    <h2>Angular</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla et laborum
+                        distinctio</span>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="ss express">
+                    <h2>Express js</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla et laborum
+                        distinctio</span>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="ss mongo">
+                    <h2>Mongo DB</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla et laborum
+                        distinctio</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+<span>Created by @kanishk upadhyay</span>
+</div>
+  <script src="../js/error.js"></script>
+</body>
+</html>

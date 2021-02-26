@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jassie Gill</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<style>
+   @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+*{
+    margin: 0;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    padding: 0;
+}
+header{
+  position: fixed;
+    background-color: #e22042;
+    padding: 12px 0px 16px 0px;
+    width: 100%;
+    margin:0px 0px;
+
+}
+.first-div{
+    display: flex;
+    
+}
+.first-div h3{
+    font-size: 22px;
+    margin: 0px 4px;
+    
+}
+.upadhyay{
+    color: #312747;
+}
+.kanishk{
+    color: #fff;
+}
+.sec-div{
+    display:  flex;
+    justify-content: center;
+}
+.sec-div ol li{
+    font-size: 18px;
+    float: left;
+    margin: -17px 39px 0px 25px;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+.sec-div ol li a{
+    text-decoration: none;
+    color: #fff;
+}
+.sec-div ol li a:hover
+{
+    color: #312747;
+}
+.third-div{
+    display: flex;
+    margin: -26px 0px 0px 0px;
+}
+.fa-search:before{
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+   
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    top: 12%;
+    left: 58%;
+    position:fixed;
+    display: none;
+}
+.search-div input{
+    padding: 9px 18px 13px 12px;
+    margin: 0px 10px;
+
+}
+.search-div button{
+    padding: 0px 15px 0px 10px;
+    background-color: #e22042;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    
+}
+.searchlink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.searchlink:hover{
+    color: #312747;
+}
+.page{
+    margin: 110px 0px;
+    color: #fff;
+}
+.error-div{
+   display: flex;
+   justify-content: center;
+   margin: 0px 0px;
+}
+.fa{
+    color: #fff;
+    display: none;
+}
+@media (max-width:950px){
+    .first-div h3{
+        font-size: 17px;
+    }
+}
+@media (max-width:863px){
+    .sec-div ol li{
+        font-size: 16px;
+        margin: -17px 28px 0px 13px;
+    }
+}
+@media (max-width:767px){
+    .sec-div{
+        margin-left: 170px;
+    }
+}
+@media (max-width:575px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 238px;
+    }
+    .fa{
+        display: block;
+    }
+    .dummy-div{
+        margin: 20px 100px 0px 100px;
+    }
+    .sec-div ol li{
+        display: none;
+    }
+    .fa-search:before{
+        display: none;
+    }
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 131px;
+    } 
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 80px;
+    } 
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 50px;
+    } 
+}
+/******************************************************************************************/
+  .bg-img {
+        background-image: url(../images/bg3.jpg);
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .img1 {
+        height: 250px;
+        width: 300px;
+    }
+
+    .card1 {
+        background-color: #e22042;
+        height: 430px;
+        width: 300px;
+        margin: 120px 20px;
+    }
+    .lehanga{
+        display: flex;
+        justify-content: center;
+    }
+.lehanga h1{
+    color: #fff;
+}
+    .first {
+        display: flex;
+        justify-content: center;
+        margin: -200px 0px;
+    }
+
+    .adhiya {
+        display: flex;
+        justify-content: center;
+    }
+
+    .adhiya h1 {
+        color: #fff;
+    }
+
+    .playbtn1 button {
+        height: 66px;
+        width: 73px;
+        border-radius: 100px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 19px 0px 0px 108px;
+        outline: none;
+    }
+
+    .playbtn1 button i {
+        display: block;
+        cursor: pointer;
+    }
+    /*****************************************************************/
+     .img2 {
+        height: 250px;
+        width: 300px;
+    }
+     .card2 {
+        background-color: #e22042;
+        height: 430px;
+        width: 300px;
+        margin: 120px 20px;
+    }
+    .prada {
+        display: flex;
+        justify-content: center;
+    }
+
+    .prada h1 {
+        color: #fff;
+    }
+
+    .playbtn2 button {
+        height: 66px;
+        width: 73px;
+        border-radius: 100px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 19px 0px 0px 108px;
+        outline: none;
+    }
+
+    .playbtn2 button i {
+        display: block;
+        cursor: pointer;
+    }
+    /*****************************************************************************/
+ .img3 {
+        height: 250px;
+        width: 300px;
+    }
+     .card3 {
+        background-color: #e22042;
+        height: 430px;
+        width: 300px;
+        margin: 120px 20px;
+    }
+    .suit {
+        display: flex;
+        justify-content: center;
+    }
+
+    .suit h1 {
+        color: #fff;
+    }
+
+    .playbtn3 button {
+        height: 66px;
+        width: 73px;
+        border-radius: 100px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 19px 0px 0px 108px;
+        outline: none;
+    }
+
+    .playbtn3 button i {
+        display: block;
+        cursor: pointer;
+    }
+/*******************************************************************************/
+@media(max-width:988px){
+        .first{
+            flex-direction: column;
+            align-items: center;
+        }
+        .bg-img{
+            height: 174vh;
+        }
+        .card1
+        {
+            margin: 20px 20px;
+        }
+        .card2
+        {
+            margin: 20px 20px;
+        }
+        .card3
+        {
+            margin: 44px 20px;
+        }
+    }
+     /********progress style******/
+    .progress_container {
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+        margin-top: 1rem;
+    }
+
+    .progress_div {
+        background-color: #fff;
+        width: 100%;
+        height: 0.5rem;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 4rem;
+        position: relative;
+        margin-top: 0.5rem;
+        transition: width 1s linear;
+        cursor: pointer;
+        appearance: none;
+    }
+
+    .progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #000;
+        border-radius: 4rem;
+        transition: all 1s linear;
+        appearance: none;
+        cursor: pointer;
+    }
+
+    #current_time {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    #duration {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    .dur{
+        display: flex;
+        justify-content: space-between;
+    }
+    /***************************************************/
+     /***************************************************/
+    .progress_divd {
+        width: 100%;
+        height: 0.5rem;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 4rem;
+        position: relative;
+        margin-top: 0.5rem;
+        transition: width 1s linear;
+        cursor: pointer;
+        appearance: none;
+        background-color: #fff;
+    }
+
+    .progressd {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #000;
+        border-radius: 4rem;
+        transition: all 1s linear;
+        appearance: none;
+        cursor: pointer;
+    }
+
+    #current_timed {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    #durationd {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    .dur{
+        display: flex;
+        justify-content: space-between;
+    }
+    /***************************************************/
+     /***************************************************/
+    .progress_divc {
+        width: 100%;
+        height: 0.5rem;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 4rem;
+        position: relative;
+        margin-top: 0.5rem;
+        transition: width 1s linear;
+        cursor: pointer;
+        appearance: none;
+        background-color: #fff;
+    }
+
+    .progressc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #000;
+        border-radius: 4rem;
+        transition: all 1s linear;
+        appearance: none;
+        cursor: pointer;
+    }
+
+    #current_timec {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    #durationc {
+        display: flex;
+        color: #fff;
+        justify-content: flex-end;
+        font-size: 1.2rem;
+    }
+          .disp{
+        position: fixed;
+        top: 12%;
+        left: 74%;
+        background-color: #e22042;
+        width: 20%;
+        display: none;
+    }
+.disp span a{
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 0px 110px 10px;
+    
+   
+}
+@media (max-width: 575px)
+{
+.disp {
+    margin: -11px 9px;
+}
+}
+}
+@media (max-width: 472px){
+    .disp {
+        margin: 0px -37px;
+    }
+}
+@media (max-width: 464px)
+{
+.disp {
+   margin: 0px -37px;
+   width: 23%;
+}
+}
+@media (max-width: 412px){
+
+.disp {
+    margin: 0px -37px;
+    width: 27%;
+}
+}
+@media (max-width: 372px)
+{
+.disp {
+    margin: 0px -37px;
+}
+}
+@media (max-width: 348px)
+{
+.disp {
+    margin: 0px -37px;
+}
+}
+@media (max-width: 332px)
+{
+.disp {
+    margin: 0px -37px;
+    width: 30%;
+}
+}
+@media (max-width: 316px){
+
+
+.disp {
+    margin: 0px -37px;
+}
+}
+@media (max-width: 300px){
+.disp {
+    margin: 0px -37px;
+    width: 33%;
+}
+}
+
+element.style {
+    display: block;
+}
+@media (max-width: 288px){
+.disp {
+   margin: 0px -37px;
+}
+}
+@media (max-width: 284px)
+{
+.disp {
+    margin: 0px -37px;
+}
+}
+@media(max-width:272px){
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    display: block;
+    margin: 0px 0px 0px 35px;
+}
+.disp {
+    margin: 0px -37px;
+    width: 40%;
+}
+}
+@media(max-width:260px)
+{
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+        display: block;
+        margin: 0px 0px 0px 0px;
+    }
+    .disp {
+       margin: 0px -37px;
+       width: 50%;
+    }
+}
+.last{
+    display: flex;
+    justify-content: center;
+    background-color: #e22042;
+    margin: 170px 0px;
+}
+.last span{
+    color: #fff;
+    
+}
+</style>
+<body>
+    <header>
+  <div class="first-div">
+   <h3 class="kanishk">kanishk</h3>
+   <h3 class="upadhyay">upadhyay</h3>
+  </div>
+  <div class="sec-div">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/singers">Singers</a></li>
+      <li><a href="/about">About us</a></li>
+      <li><a href="/contact">Contact us</a></li>
+    </ol>
+    <div class="third-div">
+      <i id="icon" class="fa fa-search" style="font-size:36px"></i>
+      <i id="ham" class="fa fa-bars" style="font-size:36px" ></i>
+    </div>
+  </div>
+  
+</header>
+<div  id="search" class="search-div">
+  <input type="text" placeholder="Search here">
+  <button><a class="searchlink" href="">Search</a></button>
+</div>  
+<div class="error-div">
+    <h1 class="page">Jassie Gill</h1>
+    </div>
+<div class="bg-img">
+        <div class="first">
+
+            <div class="card1">
+                <div class="first-imgdiv">
+                    <img class="img1" src="../images/guitar.jpg" alt="Error loding image" srcset="">
+                </div>
+                <div class="lehanga">
+                    <h1>Guitar Sikhda</h1>
+                </div>
+                 <!------progress bar------->
+                <div class="progressbar_container" id="progressbar_container">
+                    <div class="progress_duration_meter">
+                         <div class="dur">
+                        <div id="current_time">0:00</div>
+                       
+                            <div id="duration">0:00</div>
+                        </div>
+                        <div class="progress_div" id="progress_div">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="playbtn1">
+                    <button>
+                        <i id="guitar" class="fa fa-play"
+                            style="font-size:48px;color:#e22042"></i>
+                        <audio id="audioguitar" src="../images/Guitar_Sikhda_(DJJOhAL.Com).mp3"></audio>
+                    </button>
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="card2">
+                <div class="second-imgdiv">
+                    <img class="img2" src="../images/niklecurrent.jpg" alt="Error loding image" srcset="">
+                </div>
+                <div class="prada">
+                    <h1>Nikle Current</h1>
+                </div>
+                  <!------progress bar------->
+                <div class="progressbar_containerd" id="progressbar_containerd">
+                    <div class="progress_duration_meterd">
+                        <div class="dur">
+                        <div id="current_timed">0:00</div>
+                        
+                            <div id="durationd">0:00</div>
+                        </div>
+                        <div class="progress_divd" id="progress_divd">
+                            <div class="progressd" id="progressd"></div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="playbtn2">
+                    <button>
+                        <i id="nikle" class="fa fa-play"
+                            style="font-size:48px;color:#e22042"></i>
+                        <audio id="nikleaudio" src="../images/Nikle_Currant_-_Jassi_Gill.mp3"></audio>
+                    </button>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="card3">
+                <div class="third-imgdiv">
+                    <img class="img3" src="../images/surma.jpg" alt="Error loding image" srcset="">
+                </div>
+                <div class="suit">
+                    <h1>Surma Kaala</h1>
+                </div>
+                <!------progress bar------->
+                <div class="progressbar_containerc" id="progressbar_containerc">
+                    <div class="progress_duration_meterc">
+                         <div class="dur">
+                        <div id="current_timec">0:00</div>
+                       
+                            <div id="durationc">0:00</div>
+                        </div>
+                        <div class="progress_divc" id="progress_divc">
+                            <div class="progressc" id="progressc"></div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="playbtn3">
+                    <button>
+                        <i id="surma" class="fa fa-play"
+                            style="font-size:48px;color:#e22042"></i>
+                        <audio id="audiosurma" src="../images/Official_Video___SURMA_KAALA____Jassie_Gill___Snap(MP3_128K).mp3"></audio>
+                    </button>
+
+
+                </div>
+
+            </div>
+        </div>
+         <div class="last">
+        <span>@Created by Kanishk Upadhyay</span>
+    </div>
+        <div id="disp" class="disp">
+  <span><a href="/">Home</a></span><br>
+  <span><a href="/singers">Singers</a></span><br>
+  <span><a href="/about">About us</a></span><br>
+  <span><a href="/contact">Contact us</a></span>
+</div>
+  <script>
+      let isPlaying=false
+      let guitar=document.getElementById("guitar")
+       let nikle=document.getElementById("nikle")
+        let surma=document.getElementById("surma")
+     guitar.addEventListener("click", () => {
+                isPlaying ? pauseguitar() : playguitar()
+            })
+     nikle.addEventListener("click", () => {
+                isPlaying ? pausenikle() : playnikle()
+            })
+     surma.addEventListener("click", () => {
+                isPlaying ? pausesurma() : playsurma()
+            })
+      let progress = document.getElementById("progress")
+            const progress_div = document.getElementById("progress_div")
+            let total_duration = document.getElementById("duration")
+            let total_currentTime = document.getElementById("current_time")
+            let current_time = document.getElementById("current_time")
+              /////////////////////////////////////////////////////
+            let progressd = document.getElementById("progressd")
+            const progress_divd = document.getElementById("progress_divd")
+            let total_durationd = document.getElementById("durationd")
+            let total_currentTimed = document.getElementById("current_timed")
+            let current_timed = document.getElementById("current_timed")
+             /////////////////////////////////////////////////////////////
+            let progressc = document.getElementById("progressc")
+            const progress_divc = document.getElementById("progress_divc")
+            let total_durationc = document.getElementById("durationc")
+            let total_currentTimec = document.getElementById("current_timec")
+            let current_timec = document.getElementById("current_timec")
+            ////////////////////////////////////////////
+let icon=document.getElementById("icon")
+let serach=document.getElementById("search")
+icon.addEventListener("click",()=>{
+    serach.style.display="block"
+})
+
+if(serach.style.display=="block"){
+    icon.addEventListener("click",()=>{
+        serach.style.display="none"
+    })
+}
+icon.addEventListener("dblclick",()=>{
+    serach.style.display="none"
+})
+////////////////////////////////////////////////////////////////////
+function playguitar() {
+                isPlaying = true
+                var audio = document.getElementById("audioguitar");
+                audio.play();
+                audio.addEventListener('timeupdate', (event) => {
+                    // console.log(event)
+                    const { currentTime, duration } = event.srcElement;
+                    console.log(currentTime)
+                    console.log(duration)
+                    let progress_time = (currentTime / duration) * 100;
+                    progress.style.width = `${progress_time}%`;
+                    //music duration update
+                    let min_duration = Math.floor(duration / 60)
+                    let sec_duration = Math.floor(duration % 60)
+
+                    let tot_duration = `${min_duration}:${sec_duration}`
+                    total_duration.textContent = `${tot_duration}`
+
+                    //current duration update
+                    let min_currentTime = Math.floor(currentTime / 60)
+                    let sec_currentTime = Math.floor(currentTime % 60)
+
+                    if (sec_currentTime < 10) {
+                        sec_currentTime = `0${sec_currentTime}`
+                    }
+                    let tot_currentTime = `${min_currentTime}:${sec_currentTime}`
+                    total_currentTime.textContent = `${tot_currentTime}`
+
+                })
+                //progress onclick function
+                progress_div.addEventListener("click", (event) => {
+                    console.log(event)
+                    const { duration } = audio
+                    let move_progress = (event.offsetX / event.srcElement.clientWidth) * duration
+                    audio.currentTime = move_progress
+                })
+            }
+            function pauseguitar() {
+                isPlaying = false
+                var audio = document.getElementById("audioguitar");
+                audio.pause();
+            }
+            //////////////////////////////////////////////////////////////////////////////////
+             /********************************************************************************/
+
+            function playnikle() {
+                isPlaying = true
+                var audio = document.getElementById("nikleaudio");
+                audio.play();
+                audio.addEventListener('timeupdate', (event) => {
+                    // console.log(event)
+                    const { currentTime, duration } = event.srcElement;
+                    let progress_timed = (currentTime / duration) * 100;
+                    progressd.style.width = `${progress_timed}%`;
+                    //music duration update
+                    let min_durationd = Math.floor(duration / 60)
+                    let sec_durationd = Math.floor(duration % 60)
+
+                    let tot_durationd = `${min_durationd}:${sec_durationd}`
+                    total_durationd.textContent = `${tot_durationd}`
+
+                    //current duration update
+                    let min_currentTimed = Math.floor(currentTime / 60)
+                    let sec_currentTimed = Math.floor(currentTime % 60)
+
+
+                    if (sec_currentTimed < 10) {
+                        sec_currentTimed = `0${sec_currentTimed}`
+                    }
+                    let tot_currentTimed = `${min_currentTimed}:${sec_currentTimed}`
+                    total_currentTimed.textContent = `${tot_currentTimed}`
+
+                })
+                //progress onclick function
+                progress_divd.addEventListener("click", (event) => {
+                    const { duration } = audio
+                    let move_progressd = (event.offsetX / event.srcElement.clientWidth) * duration
+                    audio.currentTime = move_progressd
+                })
+
+
+            }
+            function pausenikle() {
+                isPlaying = false
+                var audio = document.getElementById("nikleaudio");
+                audio.pause();
+            }
+             /**********************************************************************************/
+            function playsurma() {
+                isPlaying = true
+                var audio = document.getElementById("audiosurma");
+                audio.play();
+                 audio.addEventListener('timeupdate', (event) => {
+                    // console.log(event)
+                    const { currentTime, duration } = event.srcElement;
+                    let progress_timec = (currentTime / duration) * 100;
+                    progressc.style.width = `${progress_timec}%`;
+                    //music duration update
+                    let min_durationc = Math.floor(duration / 60)
+                    let sec_durationc = Math.floor(duration % 60)
+
+                    let tot_durationc = `${min_durationc}:${sec_durationc}`
+                    total_durationc.textContent = `${tot_durationc}`
+
+                    //current duration update
+                    let min_currentTimec = Math.floor(currentTime / 60)
+                    let sec_currentTimec = Math.floor(currentTime % 60)
+
+
+                    if (sec_currentTimec < 10) {
+                        sec_currentTimec = `0${sec_currentTimec}`
+                    }
+                    let tot_currentTimec = `${min_currentTimec}:${sec_currentTimec}`
+                    total_currentTimec.textContent = `${tot_currentTimec}`
+
+                })
+                //progress onclick function
+                progress_divc.addEventListener("click", (event) => {
+                    const { duration } = audio
+                    let move_progressc = (event.offsetX / event.srcElement.clientWidth) * duration
+                    audio.currentTime = move_progressc
+                })
+
+            }
+            function pausesurma() {
+                isPlaying = false
+                var audio = document.getElementById("audiosurma");
+                audio.pause();
+            }
+            //////////////////////////////////////////////////
+               let icons=document.getElementById("icon")
+let disp=document.getElementById("disp")
+//let serach=document.getElementById("search")
+let ham=document.getElementById("ham")
+let isShow=false
+ham.addEventListener("click",()=>{
+    isShow?Hidenavbar():Shownavbar()
+    
+})
+Shownavbar=()=>{
+    disp.style.display="block"
+    isShow=true
+}
+Hidenavbar=()=>{
+    disp.style.display="none"
+    isShow=false
+}
+
+icons.addEventListener("click",()=>{
+    isShow? hide():show()
+})
+show=()=>{
+    serach.style.display="block"
+    isShow=true
+}
+hide=()=>{
+    serach.style.display="none"
+    isShow=false
+}
+  </script>
+</body>
+</html>

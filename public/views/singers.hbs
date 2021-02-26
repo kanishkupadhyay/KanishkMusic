@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<!-----------------------CSS--------------------------->
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+*{
+    margin: 0;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    padding: 0;
+}
+
+    header {
+         position: fixed;
+        background-color: #e22042;
+        padding: 12px 0px 16px 0px;
+        width: 100%;
+        margin: -100px 0px;
+
+    }
+
+    .first-div {
+        display: flex;
+
+    }
+
+    .first-div h3 {
+        font-size: 22px;
+        margin: 0px 4px;
+
+    }
+
+    .upadhyay {
+        color: #312747;
+    }
+
+    .kanishk {
+        color: #fff;
+    }
+
+    .sec-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-div ol li {
+        font-size: 18px;
+        float: left;
+        margin: -17px 39px 0px 25px;
+        cursor: pointer;
+        list-style: none;
+
+    }
+
+    .sec-div ol li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .sec-div ol li a:hover {
+        color: #312747;
+    }
+
+    .third-div {
+        display: flex;
+        margin: -26px 0px 0px 0px;
+    }
+
+    .fa-search:before {
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+
+    }
+
+    .search-div {
+        display: flex;
+        justify-content: center;
+        top: 12%;
+        left: 58%;
+        position: fixed;
+        display: none;
+    }
+
+   .search-div button {
+    padding: 10px 15px 10px 10px;
+    background-color: #e22042;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+    .search-div button {
+        padding: 10px 15px 10px 10px;
+        background-color: #e22042;
+        border-radius: 5px;
+        border: 2px solid #fff;
+
+    }
+
+    .searchlink {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .searchlink:hover {
+        color: #312747;
+    }
+
+    .page {
+        margin: 56px 0px;
+    }
+
+    .select-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .select {
+        color: #fff;
+        background-color: #e22042;
+    }
+/****************************Sidhu moosewala****************************/
+    .sidhu {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .sidhubtn {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .sidhu-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px;
+    }
+      .sidhu-btndiv {
+        margin: 4px 0px 0px 29px;
+    }
+/******************************************************************************/
+    .card-first {
+        margin: 0px 20px 0px 0px;
+        
+
+    }
+
+    .card-second {
+        margin: 0px 20px 0px 0px;
+        
+    }
+
+    .card-third {
+        margin: 0px 20px 0px 0px;
+        
+
+    }
+
+  
+/******************************Karan aujla**************************************/
+    .karanbtn {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .karan-btn {
+        padding: 5px 10px 5px 5px;
+        border: 2px solid white;
+        background-color: #e22042;
+        cursor: pointer;
+        margin: 0px 45px;
+    }
+
+    .karan-btndiv {
+        margin: 4px 0px 0px 29px;
+    }
+/*********************************************************************/
+    .card-div {
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /**********Jass manak*******************/
+    .jass {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .jassbtn {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .jass-btn {
+        padding: 5px 10px 5px 5px;
+        border: 2px solid white;
+        background-color: #e22042;
+        cursor: pointer;
+        margin: 0px 45px;
+    }
+
+    .jass-btndiv {
+        margin: 4px 0px 0px 29px;
+    }
+
+    .k-div {
+        display: flex;
+
+    }
+
+    /**********************************************************************/
+.sec-card-div {
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+     .l-div {
+        display: flex;
+
+    }
+    /*****************************jassie gill***************************/
+.card-fourth {
+    margin: 0px 20px 0px 0px;
+}
+  .jassie {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .jassiebtn{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .jassie-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px;
+    }
+      .jassie-btndiv {
+        margin: 4px 0px 0px 80px;
+    }
+    /*******************************************************************/
+
+    /************************Guri**************************************/
+    .card-fifth {
+    margin: 0px 20px 0px 0px;
+}
+  .guri {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .guribtn{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .guri-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px;
+    }
+      .guri-btndiv {
+        margin: 4px 0px 0px 121px;
+    }
+/*************************************************************************************/
+
+/******************Mankirt Aulakh*********************************************/
+.card-six {
+    margin: 0px 20px 0px 0px;
+}
+.mankirt {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .mankirtbtn{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .mankirt-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px;
+    }
+      .mankirt-btndiv {
+        margin: 4px 0px 0px 48px;
+    }
+/*******************************Guru randhawa***********************************/
+
+.card-seven {
+    margin: 0px 20px 0px 0px;
+}
+.guru {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .gurubtn{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .guru-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px;
+    }
+      .guru-btndiv {
+        margin: 4px 0px 0px 48px;
+    }
+    /*****************************************************************************/
+
+    /**************************Hardy sandhu****************************/
+
+.card-eight {
+    margin: 0px 20px 0px 0px;
+}
+.hardy{
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .hardybtn{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .hardy-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px;
+    }
+      .hardy-btndiv {
+        margin: 4px 0px 0px 62px;
+    }
+    /***********************************************************/
+    .third-card-div{
+        margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    }
+    .m-div {
+    display: flex;
+}
+/*************************************Diljit dosanjh*********************/
+
+.card-nine {
+    margin: 0px 20px 0px 0px;
+}
+.dil{
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .dilbtn{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .dil-btn {
+        padding: 5px 10px 5px 5px;
+        background-color: #e22042;
+        border: 2px solid white;
+        cursor: pointer;
+        margin: 0px 0px 0px 18px;
+    }
+      .dil-btndiv {
+        margin: 4px 0px 0px 48px;
+    }
+    /***********Media queries*********/
+    @media (max-width:950px){
+    .first-div h3{
+        font-size: 17px;
+    }
+}
+@media (max-width:863px){
+    .sec-div ol li{
+        font-size: 16px;
+        margin: -17px 28px 0px 13px;
+    }
+}
+@media (max-width:767px){
+    .sec-div{
+        margin-left: 170px;
+    }
+}
+@media (max-width:575px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 238px;
+    }
+    .dummy-div{
+        margin: 20px 100px 0px 100px;
+    }
+    .sec-div ol li{
+        display: none;
+    }
+    .fa-search:before{
+        display: none;
+    }
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 131px;
+    } 
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 80px;
+    } 
+}
+@media (max-width:467px){
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+        display: block;
+        margin: 0px 0px 0px 50px;
+    } 
+}
+    @media(max-width:991px) {
+        .k-div {
+            flex-direction: column;
+        }
+        .l-div{
+            flex-direction: column;
+        }
+        .m-div{
+            flex-direction: column;
+        }
+
+        .sidhu-btn {
+            margin: 0px 0px 15px 8px;
+            ;
+        }
+
+        .karan-btn {
+            margin: 0px 0px 15px 41px;
+        }
+        .card-first{
+            margin: 0px 0px;
+        }
+        .card-second{
+            margin: 0px 0px;
+        }
+        .card-third{
+            margin: 0px 0px;
+        }
+        .card-fourth{
+            margin: 0px 0px;
+        }
+        .card-fifth{
+            margin: 0px 0px;
+        }
+        .card-six{
+            margin: 0px 0px;
+        }
+        .card-seven{
+            margin: 0px 0px;
+        }
+        .card-eight{
+            margin: 0px 0px;
+        }
+    }
+    @media (max-width: 575px)
+{
+.disp {
+    margin: 19px 436px;
+}
+}
+@media (max-width: 472px){
+    .disp {
+        margin: -559px 362px;
+    }
+}
+@media (max-width: 535px){
+    .disp {
+        margin: 19px 414px;
+    }
+}
+@media (max-width: 515px){
+    .disp {
+        margin: 19px 399px;
+    }
+}
+@media (max-width: 486px){
+    .disp {
+        margin: 19px 382px;
+    }
+}
+@media (max-width: 464px)
+{
+.disp {
+    margin: 19px 297px;
+}
+}
+@media (max-width: 412px){
+
+.disp {
+    margin: 19px 270px;
+}
+}
+@media (max-width: 372px)
+{
+.disp {
+    margin: 19px 248px;
+}
+}
+@media (max-width: 348px)
+{
+.disp {
+    margin: 19px 232px;
+}
+}
+@media (max-width: 332px)
+{
+.disp {
+    margin: 19px 223px;
+}
+}
+@media (max-width: 316px){
+
+
+.disp {
+    margin: 19px 223px;
+}
+}
+@media (max-width: 300px){
+.disp {
+    margin: 19px 198px;
+}
+}
+
+element.style {
+    display: block;
+}
+@media (max-width: 288px){
+.disp {
+    margin: 19px 185px;
+}
+}
+@media (max-width: 284px)
+{
+.disp {
+    margin: 19px 172px;
+}
+}
+@media(max-width:272px){
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    display: block;
+    margin: 0px 0px 0px 35px;
+}
+.disp {
+    margin: 19px 163px;
+}
+}
+@media(max-width:260px)
+{
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+        display: block;
+        margin: 0px 0px 0px 0px;
+    }
+    .disp {
+        margin: 19px 123px;
+    }
+}
+@media(max-width:2652px) {
+    .disp{
+        display: none;
+        /*margin: 19px 400px;*/
+    }
+
+}
+.foot{
+    margin: 0px 0px;
+}
+</style>
+
+<body>
+    <header>
+        <div class="first-div">
+            <h3 class="kanishk">kanishk</h3>
+            <h3 class="upadhyay">upadhyay</h3>
+        </div>
+        <div  class="sec-div">
+            <ol>
+                <li><a href="/">Home</a></li>
+                <li><a href="/singers">Singers</a></li>
+                <li><a href="/about">About us</a></li>
+                <li><a href="/contact">Contact us</a></li>
+            </ol>
+            <div class="third-div">
+                <i id="icon" class="fa fa-search" style="font-size:36px"></i>
+                  <i id="ham" class="fa fa-bars" style="font-size:36px" ></i>
+            </div>
+        </div>
+<div id="disp" class="disp">
+  <span><a href="/">Home</a></span><br>
+  <span><a href="/singers">Singers</a></span><br>
+  <span><a href="/recent">Recent</a></span><br>
+  <span><a href="/contact">Contact us</a></span>
+</div>
+    </header>
+    <div id="search" class="search-div">
+        <input type="text" placeholder="Search here">
+        <button id="searchbtn"><a class="searchlink" href="">Search</a></button>
+    </div>
+
+    <div class="select-div">
+        <h1 class="select">Select Singer</h1>
+    </div>
+    <div class="card-div">
+        <div class="k-div">
+            <div class="card-first">
+                <img class="sidhu" src="../images/sidhumoosewala.jpg" alt="Error loding image">
+                <div class="sidhu-btndiv">
+                    <button class="sidhu-btn"><a class="sidhubtn" href="/singers/sidhumoosewala">Sidhu Moosewala</a></button>
+                </div>
+            </div>
+            <div class="card-second">
+                <img class="sidhu" src="../images/karanaujla.jpg" alt="Error loding image">
+                <div class="karan-btndiv">
+                    <button class="karan-btn"><a class="karanbtn" href="/singers/karanaujla">Karan Aujla</a></button>
+                </div>
+            </div>
+
+            <div class="card-third">
+                <img class="jass" src="../images/jassmanak.jpg" alt="Error loding image">
+                <div class="jass-btndiv">
+                    <button class="jass-btn"><a class="jassbtn" href="/singers/jassmanak">Jass Manak</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------second flex box----------------------------->
+<div class="sec-card-div">
+        <div class="l-div">
+            <div class="card-fourth">
+                <img class="jassie" src="../images/jassigill.jpg" alt="Error loding image">
+                <div class="jassie-btndiv">
+                    <button class="jassie-btn"><a class="jassiebtn" href="/singers/jassiegill">Jassie Gill</a></button>
+                </div>
+                </div>
+
+                 <div class="card-fifth">
+                <img class="guri" src="../images/guri.jpg" alt="Error loding image">
+                <div class="guri-btndiv">
+                    <button class="guri-btn"><a class="jassiebtn" href="/singers/guri">Guri</a></button>
+                </div>
+                </div>
+<div class="card-six">
+                <img class="mankirt" src="../images/mankirt.jpg" alt="Error loding image">
+                <div class="mankirt-btndiv">
+                    <button class="mankirt-btn"><a class="mankirtbtn" href="/singers/mankirtaulakh">Mankirt Aulakh</a></button>
+                </div>
+                </div>
+
+                </div>
+            </div>
+    <!--------------------------third flex box---------------------->
+    <div class="third-card-div">
+        <div class="m-div">
+<div class="card-seven">
+                <img class="guru" src="../images//guru.jpg" alt="Error loding image">
+                <div class="guru-btndiv">
+                    <button class="guru-btn"><a class="gurubtn" href="/singers/gururandhawa">Guru Randhawa</a></button>
+                </div>
+                </div>
+<div class="card-eight">
+                <img class="hardy" src="../images/hardy.jpg" alt="Error loding image">
+                <div class="hardy-btndiv">
+                    <button class="hardy-btn"><a class="hardybtn" href="/singers/hardysandhu">Hardy Sandhu</a></button>
+                </div>
+                </div>
+<div class="card-nine">
+                <img class="dil" src="../images/diljit.jpg" alt="Error loding image">
+                <div class="dil-btndiv">
+                    <button class="dil-btn"><a class="dilbtn" href="/singers/diljitdosanjh">Diljit Dosanjh</a></button>
+                </div>
+                </div>
+
+        </div>
+    </div>
+    <div class="footer foot">
+    <span>Created by @kanishk upadhyay</span>
+  </div>
+          <!-------------------javascript---------------------->
+<script src="../js/singers.js"></script>
+</body>
+
+</html>
