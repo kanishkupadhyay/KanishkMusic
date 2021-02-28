@@ -49,5 +49,5 @@ app.get("*",(req,res)=>{
     res.render("error")
 })
 app.listen(PORT,()=>{
-    console.log("Server listening on 8000")
+    console.log(`server listening on port ${PORT}`)
 })

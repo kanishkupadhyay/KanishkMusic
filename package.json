@@ -1,27 +1,24 @@
 {
   "name": "music-player",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-   "start":"node index.js"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1"
   },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kanishkupadhyay/KanishkMusic.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/kanishkupadhyay/KanishkMusic/issues"
   },
-  "homepage": "https://github.com/kanishkupadhyay/KanishkMusic#readme",
-  "description": ""
-},
-"engines": {
-    "node": "12.18.3"
-  }
+  "homepage": "https://github.com/kanishkupadhyay/KanishkMusic#readme"
+}
