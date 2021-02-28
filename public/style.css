@@ -343,7 +343,7 @@ element.style {
         margin: -675px 268px;
     }
     .dummy-div span{
-        font-size: 26px;
+        font-size: 14px;
     }
 
 }
@@ -382,24 +382,20 @@ element.style {
         font-size: 23px;
     }
     .dummy-div span{
-        font-size: 25px;
+        font-size: 14px;
     }
 }
 @media(max-width:317px){
     .typewrite{
         font-size: 21px;
     }
-    .dummy-div span{
-        font-size: 23px;
-    }
+    
 }
 @media(max-width:294px){
     .typewrite{
         font-size: 19px;
     }
-    .dummy-div span{
-        font-size: 21px;
-    }
+    
 }
 @media(max-width:260px){
     .typewrite{
