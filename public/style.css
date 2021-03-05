@@ -113,9 +113,14 @@ header{
 .dummy-div{
     color: #fff;
     font-size: 20px;
-    margin: 20px 200px 0px 150px;
+    margin: 0px 100px;
     display: flex;
 
+}
+@media(max-width:684px){
+    .dummy-div{
+        margin:0px 40px;
+    }
 }
 .bg-img{
 background-image: url(./images/bg.jpg);
@@ -171,9 +176,7 @@ margin: 56px 0px;
         
         margin: -428  431px;
     }
-    .dummy-div{
-        margin: 20px 100px 0px 100px;
-    }
+   
     .sec-div ol li{
         display: none;
     }
@@ -200,9 +203,7 @@ margin: 56px 0px;
     } 
 }
 @media (max-width:436px){
-    .dummy-div{
-        margin: 20px 50px 0px 50px;
-    }
+   
     .typewrite{
         font-size: 23px;
     }
@@ -342,9 +343,7 @@ element.style {
     .disp{
         margin: -675px 268px;
     }
-    .dummy-div span{
-        font-size: 14px;
-    }
+    
 
 }
 @media(max-width:372px) {
@@ -372,19 +371,10 @@ element.style {
         font-size: 30px;
     }
 }
-@media(max-width:416px){
-    .typewrite{
-        font-size: 25px;
-    }
-}
-@media(max-width:363px){
-    .typewrite{
-        font-size: 23px;
-    }
-    .dummy-div span{
-        font-size: 14px;
-    }
-}
+
+
+   
+    
 @media(max-width:317px){
     .typewrite{
         font-size: 21px;
