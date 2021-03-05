@@ -5,12 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.1.1",
+    "hbs": "^4.1.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,8 @@
   "bugs": {
     "url": "https://github.com/kanishkupadhyay/KanishkMusic/issues"
   },
-  "engines":{
-  	"node ":"12.18.3"
+  "engines": {
+    "node": "12.18.3"
   },
   "homepage": "https://github.com/kanishkupadhyay/KanishkMusic#readme"
 }
